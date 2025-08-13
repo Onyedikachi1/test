@@ -112,8 +112,11 @@
                 padding: 14px 16px;
                 text-decoration: none;
             }
-            .list a:hover {
+            .list a:hover:not(.active) {
                 background-color:#111;
+            }
+            .active {
+                background-color: #04AA6D;
             }
 
 
