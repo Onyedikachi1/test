@@ -1,6 +1,6 @@
-body{
+/*body{
     background-color: rgb(118, 65, 65);
-}
+}*/
            /* body { background-color: beige;}*/
             h1 { color: white;}
             h3 { color: blue;}
@@ -89,7 +89,32 @@ body{
                 height: 240px;
                 border-radius: 50px;
             }
-
             .form {
                 text-align: center;
+
             }
+
+            .navi{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+            .list{
+                float: left;
+            }
+
+            .list a{
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .list a:hover {
+                background-color:#111;
+            }
+
+
+
